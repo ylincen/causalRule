@@ -168,6 +168,7 @@ def train_main(args):
 
 
 if __name__ == '__main__':
+    print("Start ... ")
     from args import rrl_args
     # for arg in vars(rrl_args):
     #     print(arg, getattr(rrl_args, arg))
